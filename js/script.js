@@ -2,10 +2,27 @@
 /*global $, jQuery*/
 
 $(document).ready(function () { "use strict";
-                               $("#coin-button").on("click", function () {
-        $("#quote").html("Between a one and a three is always a two.");
-        $("#author").html("Native American Proverb");
-        $("#background").css("backgroundImage", "url(../media/caravan.jpg)");
-        $("#content-container").css("backgroundColor", "rgba(204,102,0,0.8)");
+
+    var themeNum = 1;
+                               
+    $("#coin-button").on("click", function () {
+
+        $.ajax({
+            url: "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=",
+            success: function (json) {
+                $("#quote").html(json[0].content);
+                $("#author").html(json[0].title);
+            },
+            cache: false
+        });
+        
+        $.ajax({
+            url: "../data/theme.json",
+            success: function (json) {
+                $("#background").css("backgroundImage", json[themeNum].backgroundURL);
+                $("#content-container").css("backgroundColor", json[themeNum].color);
+                themeNum = (themeNum + 1) % 5;
+            }
+        });
     });
     });
