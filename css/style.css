@@ -88,3 +88,17 @@ a:hover {
         font-size: 4.5vw;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    #title {
+        font-size: 70px;
+    }
+    
+    #quote {
+        font-size: 30px;
+    }
+    
+    #author {
+        font-size: 40px;
+    }
+}
