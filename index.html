@@ -6,14 +6,37 @@
     <meta name="keywords" content="HTML,CSS,XML,JavaScript">
     <meta name="author" content="Patrick Martinez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="vendor/bootstrap.min.css"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="vendor/jquery-3.2.1.min.js"></script>
-    <script src="vendor/bootstrap.min.js"
+    <link id="cssSheet" rel="stylesheet" type="text/css" href="css/style.css">
     <title>Random Quote Generator</title>
 </head>
     
 <body>
-    
+<div class="container-fluid" id="background">
+    <!-- This is the content box -->
+    <div id="content-container">
+        <!-- This is the title -->
+        <div id="title">
+            INSPIRATION<br>DAILY
+        </div>
+        <!-- This contains the quote and author -->
+        <div id="quote-box">
+            <div id="quote">The world is yours</div>
+            <div id="author">-Scarhead</div>
+        </div>
+        <!-- Quote Button-->
+        <div id="button-container">
+        <button type="button" class="btn btn-primary">New Quote</button>
+        </div>
+        <!-- Who Am I link -->
+        <a href="https://patrickmartinez.us">
+        <div id="who-link">
+            Who am I?
+        </a>
+        </div>
+    </div>
+</div>
 </body>
     
 </html>

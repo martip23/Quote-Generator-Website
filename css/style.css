@@ -1,0 +1,30 @@
+#background {
+    background-image: url(../media/forest.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content-container {
+    /* Alignment stuff */
+    
+    /* Background stuff */
+    border: solid;
+    background-color: rgba(0,0,128,0.4);
+    
+    /* Text stuff */
+    color: white;
+}
+
+#title {
+    text-align: center;
+    font-size: 9vw;
+}
+
+#quote-box {
+    background: rgba(0,0,0,0.2)
+}
