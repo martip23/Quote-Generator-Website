@@ -14,6 +14,8 @@
     
     /* Background stuff */
     border: solid;
+    border-color: black;
+    border-width: 2px;
     background-color: rgba(0,0,128,0.4);
     
     /* Text stuff */
@@ -21,10 +23,34 @@
 }
 
 #title {
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     font-size: 9vw;
 }
 
 #quote-box {
     background: rgba(0,0,0,0.2)
+}
+
+#quote {
+    text-align: center;
+    font-size: 5vw
+}
+
+#author {
+    text-align: center;
+    padding-left: 15vw;
+    font-size: 4.3vw;
+}
+
+
+
+#button-container {
+    margin: 10px;
+    text-align: center;
+}
+
+#who-link {
+    text-align: center;
 }
