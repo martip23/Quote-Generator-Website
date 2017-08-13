@@ -1,1 +1,1 @@
-Hosted on *************
+Hosted on https://patrickmartinez.us/quoteGen/

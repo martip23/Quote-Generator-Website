@@ -19,8 +19,8 @@ $(document).ready(function () { "use strict";
         $.ajax({
             url: "../data/theme.json",
             success: function (json) {
-                $("#background").css("backgroundImage", json[themeNum].backgroundURL);
-                $("#content-container").css("backgroundColor", json[themeNum].color);
+                $("#background").css("background-image", json[themeNum].backgroundURL);
+                $("#content-container").css("background-color", json[themeNum].color);
                 themeNum = (themeNum + 1) % 5;
             }
         });
