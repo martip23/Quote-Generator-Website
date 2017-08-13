@@ -7,10 +7,6 @@ a:hover {
     color: bisque;
 }
 
-body {
-    
-}
-
 #background {
     background-image: url(../media/forest.jpg);
     background-size: cover;
