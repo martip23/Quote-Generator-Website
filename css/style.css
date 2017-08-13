@@ -1,3 +1,8 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
 #background {
     background-image: url(../media/forest.jpg);
     background-size: cover;
@@ -23,10 +28,10 @@
 }
 
 #title {
-    padding-left: 20px;
-    padding-right: 20px;
+    font-family: 'Great Vibes', cursive;
+    padding: 20px;
     text-align: center;
-    font-size: 9vw;
+    font-size: 12vw;
 }
 
 #quote-box {
@@ -34,23 +39,28 @@
 }
 
 #quote {
+    font-family: 'EB Garamond', serif;
+    padding: 20px;
     text-align: center;
-    font-size: 5vw
+    font-size: 6vw;
 }
 
 #author {
+    font-family: 'Great Vibes', cursive;
     text-align: center;
     padding-left: 15vw;
-    font-size: 4.3vw;
+    font-size: 7vw;
 }
 
 
 
 #button-container {
+    font-family: 'EB Garamond', serif;
     margin: 10px;
     text-align: center;
 }
 
 #who-link {
+    font-family: 'EB Garamond', serif;
     text-align: center;
 }
