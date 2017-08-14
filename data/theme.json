@@ -1,27 +1,27 @@
 {
   "0": {
     "name": "forest",
-    "backgroundURL": "..media/forest.jpg",
+    "backgroundURL": "url(../media/forest.jpg)",
     "color": "rgba(0,0,128,0.6)"
   },
   "1": {
     "name": "caravan",
-    "backgroundURL": "..media/caravan.jpg",
-    "color": "green"
+    "backgroundURL": "url(../media/caravan.jpg)",
+    "color": "rgba(220,20,60,0.7)"
   },
   "2": {
     "name": "nightSky",
-    "backgroundURL": "..media/desert-sky.jpg",
-    "color": "rgba(204,102,0,0.8)"
+    "backgroundURL": "url(../media/desert-sky.jpg)",
+    "color": "rgba(0,100,0,0.7)"
   },
   "3": {
     "name": "beach",
-    "backgroundURL": "..media/beach.jpg",
-    "color": "red"
+    "backgroundURL": "url(../media/beach.jpg)",
+    "color": "rgba(204,102,0,0.8)"
   },
   "4": {
     "name": "mountain",
-    "backgroundURL": "..media/mountain.jpg",
-    "color": "black"
+    "backgroundURL": "url(../media/mountain.jpg)",
+    "color": "rgba(0,0,0,0.6)"
   }
 }
