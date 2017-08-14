@@ -1,4 +1,5 @@
 /*jslint browser: true*/
+/*jslint devel: true */
 /*global $, jQuery*/
 
 $(document).ready(function () {
@@ -21,5 +22,15 @@ $(document).ready(function () {
             $("#content-container").css("backgroundColor", json[themeNum].color);
             themeNum = (themeNum + 1) % 5;
         });
+    });
+    
+    $("#tweet-button").on("click", function () {
+        var textToTweet, tweetLink;
+        textToTweet = $("quote").text();
+        if (textToTweet.length > 140) {
+            alert("Too many characters for tweet!");
+        }
+        tweetLink = "https://twitter.com/home?status=" + encodeURIComponent(textToTweet);
+        window.open(tweetLink, '_blank');
     });
 });
