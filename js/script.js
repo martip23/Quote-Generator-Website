@@ -30,7 +30,7 @@ $(document).ready(function () {
         if (textToTweet.length > 140) {
             alert("Too many characters for tweet!");
         }
-        tweetLink = "https://twitter.com/home?status=" + encodeURIComponent(textToTweet);
+        tweetLink = ("https://twitter.com/home?status=" + textToTweet);
         window.open(tweetLink, '_blank');
     });
 });
