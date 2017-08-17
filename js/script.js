@@ -26,7 +26,8 @@ $(document).ready(function () {
     
     $("#tweet-button").on("click", function () {
         var textToTweet, tweetLink;
-        textToTweet = $("quote").text();
+        textToTweet = $("#quote").text();
+        console.log(textToTweet);
         if (textToTweet.length > 140) {
             alert("Too many characters for tweet!");
         }
