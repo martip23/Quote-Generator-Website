@@ -57,7 +57,7 @@ a:hover {
     font-family: 'Great Vibes', cursive;
     text-align: center;
     padding-left: 15vw;
-    font-size: 7vw;
+    font-size: 6.5vw;
     text-shadow: 3px 3px 1px #000;
 }
 
@@ -67,6 +67,11 @@ a:hover {
 }
 
 #coin-button {
+    text-shadow: 2px 2px 0px #000;
+    margin:5px;
+}
+
+#tweet-button {
     text-shadow: 2px 2px 0px #000;
     margin:5px;
 }
